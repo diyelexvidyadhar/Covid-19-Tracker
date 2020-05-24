@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+        <item
+            android:id="@+id/symptoms"
+            android:icon="@drawable/ic_symptoms_icon"
+            android:title="Symptoms" />
+        <item
+            android:id="@+id/maha"
+            android:icon="@drawable/ic_heart_icon"
+            android:title="Maharastra" />
+        <item
+            android:id="@+id/world"
+            android:icon="@drawable/ic_world_globe"
+            android:title="World cases" />
+    </group>
+
+        <item android:title="Communicate">
+            <menu>
+                <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/share"
+                    android:icon="@drawable/share_icon"
+                    android:title="Share" />
+                <item
+                    android:id="@+id/yt"
+                    android:icon="@drawable/ic_youtube_icon"
+                    android:title="YouTube" />
+                <item
+                    android:id="@+id/insta"
+                    android:icon="@drawable/ic_insta_icon"
+                    android:title="Instagram" />
+                </group>
+            </menu>
+        </item>
+
+</menu>

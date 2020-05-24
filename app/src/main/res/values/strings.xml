@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Covid19-Tracker</string>
+    <string name="open_navigation">open navigation</string>
+    <string name="close_navigation">close navigation</string>
+
+
+    /////////Activity title////////
+    <string name="symptoms">Covid-19 Symptoms</string>
+
+
+    ////////Description/////////
+    <string name="symptomsdescription">If you feel seek with any of covid-19 symptoms please call or SMS us immediately for help</string>
+    <string name="symptomsCarddesciption">"If you experience mild symptoms then isolate your self do not visit public places"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

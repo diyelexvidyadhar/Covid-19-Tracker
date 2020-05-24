@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".maharastra.MahaActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+        <ImageView
+            android:id="@+id/back_maha"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/back_icon" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:fontFamily="@font/abril_fatface"
+            android:paddingStart="20dp"
+            android:text="Covid-19 Dashboard Maharastra"
+            android:textSize="28sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_maharastra_logo"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#E33F3F"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:id="@+id/total_maha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:text="loading..."
+            android:textSize="20sp"
+            android:layout_alignParentStart="true"
+            android:padding="10dp"
+            android:textColor="#fff"
+           />
+
+        <TextView
+            android:id="@+id/total_fixedmaha"
+            android:layout_width="165dp"
+            android:layout_height="65dp"
+            android:layout_alignParentEnd="true"
+            android:gravity="right"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="0dp"
+            android:fontFamily="@font/abril_fatface"
+            android:text="Confirmed Positive Cases"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#10AC1D"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:id="@+id/recover_maha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:text="loading..."
+            android:textSize="20sp"
+            android:layout_alignParentStart="true"
+            android:padding="10dp"
+            android:textColor="#fff"
+            />
+
+        <TextView
+            android:id="@+id/recover_mahafixed"
+            android:layout_width="165dp"
+            android:layout_height="65dp"
+            android:layout_alignParentEnd="true"
+            android:gravity="right"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="0dp"
+            android:fontFamily="@font/abril_fatface"
+            android:text="Patients Recovered"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#062749"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp">
+        <TextView
+            android:id="@+id/death_maha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/abril_fatface"
+            android:text="loading..."
+            android:textSize="20sp"
+            android:layout_alignParentStart="true"
+            android:padding="10dp"
+            android:textColor="#fff"
+            />
+
+        <TextView
+            android:id="@+id/death_mahafixed"
+            android:layout_width="165dp"
+            android:layout_height="65dp"
+            android:layout_alignParentEnd="true"
+            android:gravity="right"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="0dp"
+            android:fontFamily="@font/abril_fatface"
+            android:text="Total Deaths"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    android:background="#FAB5A6">
+    <TextView
+        android:id="@+id/relif_fund"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="15sp"
+        android:textColor="#4A0F02"
+        android:text="To contribute in chief relif fund click here      मुख्यमंत्री मदत निधीमध्ये हातभार लावण्यासाठी येथे क्लिक करा"
+        android:fontFamily="@font/poppins"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:background="#9BF6F5">
+        <TextView
+            android:id="@+id/travel_pass"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="15sp"
+            android:textColor="#003F67"
+            android:text="Click to apply for travel pass during lockdown     लॉकडाऊन दरम्यान ट्रॅव्हल पाससाठी अर्ज करण्यासाठी क्लिक करा "
+            android:fontFamily="@font/poppins"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"/>
+
+    </LinearLayout>
+</LinearLayout>

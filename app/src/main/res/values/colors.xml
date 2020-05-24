@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffe400</color>
+    <color name="colorPrimaryDark">#ffa600</color>
+    <color name="colorAccent">#272727</color>
+
+    <color name="textcolor">#272727</color>
+    <color name="lightwhite">#f5f5f5</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+
+    <!--      dashboard colors        -->
+    <color name="home_background">#f2f5f8</color>
+    <color name="banner_background">#f1e9ce</color>
+    <color name="banner_background_light">#56f1e9ce</color>
+    <color name="pressed">#f3d567</color>
+    <color name="notpressed">#E4E0E0</color>
+    <!--       text colors        -->
+    <color name="low_probablity">#40FF00</color>
+    <color name="medium_probablity">#FF7200</color>
+    <color name="high_probablity">#F10D0D</color>
+    <color name="pop_up">#F4F3F1</color>
+</resources>
